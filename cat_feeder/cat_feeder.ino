@@ -11,8 +11,8 @@ const int SERVO_PIN = 9;
 const int IR_SIGNAL_PIN = 12;
 const int IR_POWER_PIN = 13;
 
-const int CLOSED_ANGLE = 0;   // change these two to fit the real arm
-const int OPEN_ANGLE = 90;
+const int CLOSED_ANGLE = 155;  // found with calibrate_gate: the cap covers the neck
+const int OPEN_ANGLE = 65;     // 90 degrees from closed
 const unsigned long OPEN_TIME_MS = 2500;
 
 const uint8_t BUTTON_CH_MINUS = 0x45;
